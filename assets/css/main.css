@@ -3838,9 +3838,14 @@ input, select, textarea {
 
 .project-block {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: column;
-	border: 1px solid black;
+	border: solid 1px #dddddd;
+	border-radius: 2%;
+	width: 21rem;
+	margin: 1rem;
+	padding: .3rem;
+	align-items: center;
 
 }
 
@@ -3848,4 +3853,20 @@ input, select, textarea {
 	text-align: center;
 	margin-left: 4em;
 	padding-top: .5em;
+}
+
+#contact-me {
+	padding-bottom: .75em;
+}
+
+.project-card-container {
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.proj-title {
+	font-weight: 500;
+	padding: 1rem;
 }
